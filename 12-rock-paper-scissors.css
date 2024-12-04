@@ -1,0 +1,86 @@
+/* General Styling */
+body {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+.move-button {
+    background: none;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.move-button:hover {
+    transform: scale(1.2);
+    border-color: gold;
+}
+
+.move-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.result {
+    font-size: 2rem;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.js-moves {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.score {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.reset-score-button,.auto-play-button,
+.stop-play-button {
+    background-color: #333;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 15px;
+}
+
+.reset-score-button:hover {
+    background-color: #444;
+    border-color: #777;
+    transform: scale(1.1);
+}
+
+.stop-play-button {
+    background-color: #e63946;
+}
+
+.stop-play-button:hover {
+    background-color: #b71c1c;
+    transform: scale(1.1);
+}
